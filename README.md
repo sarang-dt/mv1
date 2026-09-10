@@ -98,7 +98,7 @@ README.md                           # 이 파일
 
 ## 📲 휴대폰 홈 화면에 추가
 
-브라우저에서 https://ywlee35.github.io/MemoryVerses/ 를 연 뒤:
+브라우저에서 https://sarang-dt.github.io/mv1/ 를 연 뒤:
 
 | 기기 | 방법 |
 |---|---|
@@ -141,7 +141,8 @@ README.md                           # 이 파일
 
 - **기술**: HTML5, CSS3, JavaScript (순수 바닐라) — 단일 파일, 빌드 불필요
 - **외부 의존성**: Google Fonts (Noto Sans KR)
-- **음성**: ElevenLabs TTS, MP3 44.1kHz 128kbps (총 132개 · 약 22MB)
+- **음성**: ElevenLabs `eleven_multilingual_v2`, MP3 44.1kHz 128kbps (총 132개 · 약 21MB)
+- **장절 낭독**: 구절 음성은 장절을 앞에서 한 번 읽고 본문이 이어집니다
 - **설정 저장**: localStorage (`srcc-memoryverses-pref`) — 언어·음성·재생 구간·반복 횟수
 - **테마**: 다크 전용 (`color-scheme: dark`) — 기기의 라이트/다크 설정과 무관하게 항상 다크
 - **PWA**: manifest + 서비스워커 (화면 프리캐시, 음성 재생 시 캐시)
@@ -152,4 +153,4 @@ README.md                           # 이 파일
 ---
 
 **제작**: 사랑의교회 새일꾼반
-**마지막 업데이트**: 2026년 9월 7일
+**마지막 업데이트**: 2026년 9월 10일

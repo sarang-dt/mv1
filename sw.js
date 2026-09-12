@@ -9,9 +9,9 @@
  *  음성 캐시(AUDIO)는 파일명이 바뀌지 않는 한 그대로 유지합니다.
  */
 
-const SHELL_VER = 'v3';   // 장절을 앞에서 한 번만 낭독하도록 음성 전면 교체
+const SHELL_VER = 'v4';   // 10과 제목 발음 교정
 const SHELL = `mv-shell-${SHELL_VER}`;
-const AUDIO = 'mv-audio-v2';
+const AUDIO = 'mv-audio-v3';
 const FONT  = 'mv-font-v1';
 
 const SHELL_FILES = [

@@ -9,7 +9,7 @@
  *  음성 캐시(AUDIO)는 파일명이 바뀌지 않는 한 그대로 유지합니다.
  */
 
-const SHELL_VER = 'v5';   // 교회 로고 변경
+const SHELL_VER = 'v6';   // 주제 앞 번호 제거
 const SHELL = `mv-shell-${SHELL_VER}`;
 const AUDIO = 'mv-audio-v3';
 const FONT  = 'mv-font-v1';

@@ -965,7 +965,7 @@ function renderContent() {
     const w = WEEKS[week];
     $content.innerHTML = `
         <div class="theme-row">
-            <div class="theme-badge">${week+1}. ${w.theme[lang]}</div>
+            <div class="theme-badge">${w.theme[lang]}</div>
         </div>
         ${w.verses.map((v,i) => `
             <div class="verse-card" id="card-${i}">
@@ -1221,7 +1221,7 @@ function setMediaMetadata(track) {
     const heading = track === 1 ? w.theme[lang] : w.verses[track-2].ref[lang];
     navigator.mediaSession.metadata = new MediaMetadata({
         title:  heading,
-        artist: `${week+1}. ${w.theme[lang]}`,
+        artist: w.theme[lang],
         album:  lang === 'ko' ? '새일꾼반 성경암송' : 'Memory Verses',
         artwork: [
             { src: 'icon-192.png', sizes: '192x192', type: 'image/png' },

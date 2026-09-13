@@ -277,6 +277,16 @@
             line-height: 1.8;
             letter-spacing: -0.005em;
         }
+        /* 여러 절로 된 본문의 절 번호 */
+        .verse-text .vnum {
+            font-size: 0.62em;
+            font-weight: 700;
+            color: var(--accent);
+            opacity: 0.8;
+            vertical-align: 0.42em;
+            margin-right: 3px;
+            letter-spacing: 0;
+        }
         .verse-card.playing .verse-text {
             color: var(--text1);
         }
@@ -726,8 +736,8 @@ const WEEKS = [
             {
                 base: "06_Ps_36-5-6",
                 ref:  { ko: "시편 36:5-6", en: "Psalm 36:5-6" },
-                text: { ko: "여호와여 주의 인자하심이 하늘에 있고 주의 진실하심이 공중에 사무쳤으며, 주의 의는 하나님의 산들과 같고 주의 심판은 큰 바다와 같으니이다 여호와여 주는 사람과 짐승을 구하여 주시나이다",
-                        en: "Your steadfast love, O Lord, extends to the heavens, your faithfulness to the clouds. Your righteousness is like the mountains of God; your judgments are like the great deep; man and beast you save, O Lord." }
+                text: { ko: "<span class='vnum'>5</span>여호와여 주의 인자하심이 하늘에 있고 주의 진실하심이 공중에 사무쳤으며, <span class='vnum'>6</span>주의 의는 하나님의 산들과 같고 주의 심판은 큰 바다와 같으니이다 여호와여 주는 사람과 짐승을 구하여 주시나이다",
+                        en: "<span class='vnum'>5</span>Your steadfast love, O Lord, extends to the heavens, your faithfulness to the clouds. <span class='vnum'>6</span>Your righteousness is like the mountains of God; your judgments are like the great deep; man and beast you save, O Lord." }
             }
         ]
     },
@@ -738,8 +748,8 @@ const WEEKS = [
             {
                 base: "07_2Tim_3-16-17",
                 ref:  { ko: "디모데후서 3:16-17", en: "2 Timothy 3:16-17" },
-                text: { ko: "모든 성경은 하나님의 감동으로 된 것으로 교훈과 책망과 바르게 함과 의로 교육하기에 유익하니, 이는 하나님의 사람으로 온전하게 하며 모든 선한 일을 행할 능력을 갖추게 하려 함이라",
-                        en: "All Scripture is breathed out by God and profitable for teaching, for reproof, for correction, and for training in righteousness, that the man of God may be complete, equipped for every good work." }
+                text: { ko: "<span class='vnum'>16</span>모든 성경은 하나님의 감동으로 된 것으로 교훈과 책망과 바르게 함과 의로 교육하기에 유익하니, <span class='vnum'>17</span>이는 하나님의 사람으로 온전하게 하며 모든 선한 일을 행할 능력을 갖추게 하려 함이라",
+                        en: "<span class='vnum'>16</span>All Scripture is breathed out by God and profitable for teaching, for reproof, for correction, and for training in righteousness, <span class='vnum'>17</span>that the man of God may be complete, equipped for every good work." }
             },
             {
                 base: "08_1Pet_2-2",
@@ -762,8 +772,8 @@ const WEEKS = [
             {
                 base: "10_Phil_4-6-7",
                 ref:  { ko: "빌립보서 4:6-7", en: "Philippians 4:6-7" },
-                text: { ko: "아무 것도 염려하지 말고 다만 모든 일에 기도와 간구로, 너희 구할 것을 감사함으로 하나님께 아뢰라. 그리하면 모든 지각에 뛰어난 하나님의 평강이 그리스도 예수 안에서 너희 마음과 생각을 지키시리라",
-                        en: "Do not be anxious about anything, but in everything by prayer and supplication with thanksgiving let your requests be made known to God. And the peace of God, which surpasses all understanding, will guard your hearts and your minds in Christ Jesus." }
+                text: { ko: "<span class='vnum'>6</span>아무 것도 염려하지 말고 다만 모든 일에 기도와 간구로, 너희 구할 것을 감사함으로 하나님께 아뢰라. <span class='vnum'>7</span>그리하면 모든 지각에 뛰어난 하나님의 평강이 그리스도 예수 안에서 너희 마음과 생각을 지키시리라",
+                        en: "<span class='vnum'>6</span>Do not be anxious about anything, but in everything by prayer and supplication with thanksgiving let your requests be made known to God. <span class='vnum'>7</span>And the peace of God, which surpasses all understanding, will guard your hearts and your minds in Christ Jesus." }
             }
         ]
     },
@@ -774,14 +784,14 @@ const WEEKS = [
             {
                 base: "11_Rom_12-4-5",
                 ref:  { ko: "로마서 12:4-5", en: "Romans 12:4-5" },
-                text: { ko: "우리가 한 몸에 많은 지체를 가졌으나 모든 지체가 같은 기능을 가진 것이 아니니, 이와 같이 우리 많은 사람이 그리스도 안에서 한 몸이 되어 서로 지체가 되었느니라",
-                        en: "For as in one body we have many members, and the members do not all have the same function, so we, though many, are one body in Christ, and individually members one of another." }
+                text: { ko: "<span class='vnum'>4</span>우리가 한 몸에 많은 지체를 가졌으나 모든 지체가 같은 기능을 가진 것이 아니니, <span class='vnum'>5</span>이와 같이 우리 많은 사람이 그리스도 안에서 한 몸이 되어 서로 지체가 되었느니라",
+                        en: "<span class='vnum'>4</span>For as in one body we have many members, and the members do not all have the same function, <span class='vnum'>5</span>so we, though many, are one body in Christ, and individually members one of another." }
             },
             {
                 base: "12_John_13-34-35",
                 ref:  { ko: "요한복음 13:34-35", en: "John 13:34-35" },
-                text: { ko: "새 계명을 너희에게 주노니 서로 사랑하라 내가 너희를 사랑한 것 같이 너희도 서로 사랑하라. 너희가 서로 사랑하면 이로써 모든 사람이 너희가 내 제자인 줄 알리라",
-                        en: "A new commandment I give to you, that you love one another: just as I have loved you, you also are to love one another. By this all people will know that you are my disciples, if you have love for one another." }
+                text: { ko: "<span class='vnum'>34</span>새 계명을 너희에게 주노니 서로 사랑하라 내가 너희를 사랑한 것 같이 너희도 서로 사랑하라. <span class='vnum'>35</span>너희가 서로 사랑하면 이로써 모든 사람이 너희가 내 제자인 줄 알리라",
+                        en: "<span class='vnum'>34</span>A new commandment I give to you, that you love one another: just as I have loved you, you also are to love one another. <span class='vnum'>35</span>By this all people will know that you are my disciples, if you have love for one another." }
             }
         ]
     },
@@ -816,8 +826,8 @@ const WEEKS = [
             {
                 base: "16_Gal_5-22-23",
                 ref:  { ko: "갈라디아서 5:22-23", en: "Galatians 5:22-23" },
-                text: { ko: "오직 성령의 열매는 사랑과 희락과 화평과 오래 참음과 자비와 양선과 충성과, 온유와 절제니 이같은 것을 금지할 법이 없느니라",
-                        en: "But the fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, self-control; against such things there is no law." }
+                text: { ko: "<span class='vnum'>22</span>오직 성령의 열매는 사랑과 희락과 화평과 오래 참음과 자비와 양선과 충성과, <span class='vnum'>23</span>온유와 절제니 이같은 것을 금지할 법이 없느니라",
+                        en: "<span class='vnum'>22</span>But the fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faithfulness, <span class='vnum'>23</span>gentleness, self-control; against such things there is no law." }
             }
         ]
     },
@@ -834,8 +844,8 @@ const WEEKS = [
             {
                 base: "18_Jas_1-14-15",
                 ref:  { ko: "야고보서 1:14-15", en: "James 1:14-15" },
-                text: { ko: "오직 각 사람이 시험을 받는 것은 자기 욕심에 끌려 미혹됨이니, 욕심이 잉태한즉 죄를 낳고 죄가 장성한즉 사망을 낳느니라",
-                        en: "But each person is tempted when he is lured and enticed by his own desire. Then desire when it has conceived gives birth to sin, and sin when it is fully grown brings forth death." }
+                text: { ko: "<span class='vnum'>14</span>오직 각 사람이 시험을 받는 것은 자기 욕심에 끌려 미혹됨이니, <span class='vnum'>15</span>욕심이 잉태한즉 죄를 낳고 죄가 장성한즉 사망을 낳느니라",
+                        en: "<span class='vnum'>14</span>But each person is tempted when he is lured and enticed by his own desire. <span class='vnum'>15</span>Then desire when it has conceived gives birth to sin, and sin when it is fully grown brings forth death." }
             }
         ]
     },
